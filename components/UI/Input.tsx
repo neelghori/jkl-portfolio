@@ -13,7 +13,7 @@ const Input: React.FC<InputProps> = (props) => {
           {props?.label}
         </label>
       ) : null}
-      <div className="relative mt-2 px-[16px] py-[5px] w-72 rounded-md shadow-sm border-[1px] border-border bg-white">
+      <div className="relative mt-2 px-4 py-[6px] w-full lg:w-72 rounded-md shadow-sm border-[1px] border-border bg-white">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
           <Image
             src={"/icons/search.svg"}

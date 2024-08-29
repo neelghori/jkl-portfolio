@@ -3,9 +3,7 @@ import React from "react";
 
 const Tag: React.FC<TagProps> = (props) => {
   return (
-    <div
-      className={`px-[12px] py-[4px] rounded-[16px] bg-secondary text-textsm text-body`}
-    >
+    <div className={`px-3 py-1 rounded-2xl bg-secondary text-textsm text-body`}>
       {props.label}
     </div>
   );

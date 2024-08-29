@@ -8,10 +8,12 @@ const BlogHeading = () => {
         <div className="flex justify-center">
           <Tag label="Our blog" />
         </div>
-        <h1 className="text-displaylg text-heading">Resources and insights</h1>
+        <h1 className="text-displaymd lg:text-displaylg text-heading text-center">
+          Resources and insights
+        </h1>
       </div>
       <div>
-        <p className="text-textxl text-body">
+        <p className="text-textlg lg:text-textxl text-body text-center">
           The latest industry news, interviews, technologies, and resources.
         </p>
       </div>
