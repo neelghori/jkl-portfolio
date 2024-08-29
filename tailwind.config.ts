@@ -11,10 +11,12 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#F9F5FF",
+        secondary: "#F3EBFF",
         heading: "#42307D",
         body: "#6941C6",
         title: "#101828",
         para: "#667085",
+        border: "#D0D5DD",
       },
       fontSize: {
         displaylg: ["48px", { lineHeight: "60px", fontWeight: "600" }],
